@@ -2,7 +2,7 @@
 ```
 go get github.com/go-basic/pool
 ```
-## 实现链接接口
+## 实现接口
 ```
 type DemoCloser struct {
 	Conn     net.Conn
@@ -34,7 +34,7 @@ func (p *DemoCloser) GetActiveTime() time.Time {
 	//从连接池中取得一个连接
 	v, err := p.Get()
 
-	//do something
+	//todo
 	//conn=v.(net.Conn)
 
 	//将连接放回连接池中
