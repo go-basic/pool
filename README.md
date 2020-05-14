@@ -48,4 +48,4 @@ func (p *DemoCloser) GetActiveTime() time.Time {
 	fmt.Println("len=", current)
 ```
 ## 更多见example
-https://github.com/go-basic/pool/example/main.go
+https://github.com/go-basic/pool/blob/master/example/main.go
